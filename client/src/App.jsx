@@ -1,13 +1,11 @@
-import './App.css'
-
-function App() {
-
+import {Fragment} from 'react';
+import AppRoute from './Routes';
+function App () {
   return (
-    <div className="appWrapper"> 
-      <h1>Coming soon!</h1>
-      <h3>Stay Tuned for something awesome.</h3>
-    </div>
-  )
+    <Fragment>
+       <AppRoute />
+    </Fragment>
+  );
 }
 
-export default App
+export default App;
