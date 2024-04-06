@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Landing.module.scss";
 import Poster from "../../assets/Poster.png";
@@ -6,12 +7,19 @@ import Left from "../../assets/Left.png";
 import Right from "../../assets/Right.png";
 import Footer from "../../components/Footer/Footer";
 import Button from "../../components/Button/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Landing = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <Fragment>
       <Navbar />
       <div className={styles.landingWrapper}>
-        <div className={styles.heroWrapper}>
+        <div className={styles.heroWrapper} data-aos="fade-up">
           <div className={styles.aboutInfo}>
             <h1>ACT</h1>
             <h2>ART | COGNITION | TECHNOLOGY </h2>
@@ -26,7 +34,7 @@ const Landing = () => {
             <Button color="#F4970F">Trello</Button>
           </div>
         </div>
-        <div className={styles.areaOfInterestInfo}>
+        <div className={styles.areaOfInterestInfo} data-aos="fade-up">
           <h4>Stride towards Perfection</h4>
           <h2>Areas of Interest</h2>
 
@@ -65,7 +73,7 @@ const Landing = () => {
           </div>
         </div>
         <img src={Poster} className={styles.poster} alt="Poster" />
-        <div className={styles.moreInfoContainer}>
+        <div className={styles.moreInfoContainer} data-aos="fade-up">
           <div className={styles.moreInfoTile}>
             <div className={styles.moreInfoLeftOne}>
               <h2>Trans-Disciplinary Cooperation</h2>
