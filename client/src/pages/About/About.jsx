@@ -3,16 +3,14 @@ import styles from "./About.module.scss";
 import Navbar from "../../components/Navbar/Navbar";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const About = () => {
   return (
     <Fragment>
       <Navbar />
       <div className={styles.aboutWrapper}>
-        <div className={styles.aboutHeader}>
-          <h1>ABOUT US</h1>
-          <h3>Get to know us better</h3>
-        </div>
+        <Header title="About" desc="Get to know us better" />
         <div className={styles.tooMuchContent}>
           <div className={styles.content}>
             ACT Center strategically aims to instigate and promote

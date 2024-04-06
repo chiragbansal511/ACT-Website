@@ -37,7 +37,7 @@ const Submissions = () => {
             months on the basis of the project objectives/targets for the period
             in question. A progress report will be submitted by the research
             team on a bi-yearly basis and meeting the objectives/targets will be
-            the criterion for the financing of the following project face.  The
+            the criterion for the financing of the following project face. The
             proposals submitted will be reviewed and evaluated by the ACT
             Center.
           </div>
