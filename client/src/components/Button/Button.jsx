@@ -1,8 +1,11 @@
 import styles from "./Button.module.scss";
 
-const Button = ({ children, color }) => {
+const Button = ({ children, color, textcolor }) => {
   return (
-    <button className={styles.button} style={{ backgroundColor: color }}>
+    <button
+      className={styles.button}
+      style={{ backgroundColor: color, color: textcolor }}
+    >
       {children}
     </button>
   );

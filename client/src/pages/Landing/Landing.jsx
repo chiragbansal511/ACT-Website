@@ -30,7 +30,9 @@ const Landing = () => {
             </h4>
           </div>
           <div className={styles.buttonContainer}>
-            <Button color="#D90000">Research Topics</Button>
+            <Button color="#D90000" textcolor="#FFFFFF">
+              Research Topics
+            </Button>
             <Button color="#F4970F">Trello</Button>
           </div>
         </div>
@@ -68,8 +70,10 @@ const Landing = () => {
             </div>
           </div>
           <div className={styles.buttonContainer}>
-            <Button color="#D90000">Research Topics</Button>
-            <Button color="#F4970F">Read More</Button>
+            <Button color="#D90000" textcolor="#FFFFFF">
+              Read More
+            </Button>
+            <Button color="#F4970F">Research Topics</Button>
           </div>
         </div>
         <img src={Poster} className={styles.poster} alt="Poster" />
@@ -85,7 +89,7 @@ const Landing = () => {
                 innovative solutions to complex problems
               </h3>
               <div className={styles.buttonContainer}>
-                <Button color="#F4970F">Read More</Button>
+                <Button color="#D90000">Read More</Button>
               </div>
             </div>
             <div className={styles.moreInfoRightOne}>
