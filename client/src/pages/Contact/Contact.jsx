@@ -14,7 +14,7 @@ const Contact = () => {
       <div className={styles.container}>
         <div className={styles.contactHeader}>
           <h1>CONTACT US</h1>
-          <h3>We can't wait to connect with you</h3>
+          <h3>We cant wait to connect with you</h3>
         </div>
         <div className={styles["contact-container"]}>
           <div className={styles["form-container"]}>
