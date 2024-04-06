@@ -1,20 +1,51 @@
-import {Fragment} from 'react';
-import {NavLink} from 'react-router-dom';
-import styles from './Navbar.module.scss';
-import logo from '../../assets/logo.webp';
+import { Fragment, useState } from "react";
+import { NavLink } from "react-router-dom";
+import styles from "./Navbar.module.scss";
+import logo from "../../assets/logo.webp";
+import classNames from "classnames";
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <Fragment>
       <nav className={styles.navbar}>
         <img src={logo} alt="logo" />
-        <ul>
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/About">About</NavLink></li>
-          <li><NavLink to="/Submissions">Submissions</NavLink></li>
-          <li><NavLink to="/Support">Support</NavLink></li>
-          <li><NavLink to="/Evaluations">Evalutions</NavLink></li>
-          <li><NavLink to="/Team">Team</NavLink></li>
-          <li><NavLink to="/contact">Contact</NavLink></li>
+        <span
+          className={classNames("material-icons", styles.hamburger)}
+          onClick={toggleMenu}
+        >
+          menu
+        </span>
+        <ul className={isOpen ? styles.showMenu : ""}>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/About">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Resources">Resources</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Submissions">Submissions</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Support">Support</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Evaluations">Evaluations</NavLink>
+          </li>
+          <li>
+            <NavLink to="/People">People</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
         </ul>
       </nav>
     </Fragment>
