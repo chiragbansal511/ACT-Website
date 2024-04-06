@@ -4,6 +4,7 @@ import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import { Fragment } from "react";
 import Data from "./Data";
+import Header from "../../components/Header/Header";
 const Submissions = () => {
   const renderProjects = () => {
     return Data.map((project) => {
@@ -19,10 +20,7 @@ const Submissions = () => {
     <Fragment>
       <Navbar />
       <div className={styles.submissionsWrapper}>
-        <div className={styles.submissionsHeader}>
-          <h1>SUBMISSIONS</h1>
-          <h3>Lets change the world</h3>
-        </div>
+        <Header title="Submissions" desc="For you to change the world" />
         <div className={styles.tooMuchContent}>
           <h2>Guidelines</h2>
           <div className={styles.content}>

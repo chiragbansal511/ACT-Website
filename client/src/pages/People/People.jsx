@@ -6,7 +6,7 @@ const People = () => {
   return (
     <Fragment>
       <Navbar />
-      <Header title="People" desc="The heroes without cape" />
+      <Header title="People" desc="For you to know us better" />
       <h1>Coming Soon!</h1>
     </Fragment>
   );

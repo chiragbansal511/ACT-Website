@@ -4,35 +4,52 @@ import Navbar from "../../components/Navbar/Navbar";
 import Button from "../../components/Button/Button";
 import aos from "aos";
 import "aos/dist/aos.css";
+import Header from "../../components/Header/Header";
+
 const Contact = () => {
   useEffect(() => {
     aos.init({ duration: 1500 });
   }, []);
+
   return (
     <Fragment>
       <Navbar />
       <div className={styles.container}>
-        <div className={styles.contactHeader}>
-          <h1>CONTACT US</h1>
-          <h3>We cant wait to connect with you</h3>
-        </div>
+        <Header title="Contact" desc="For you to reach out to us" />
         <div className={styles["contact-container"]}>
           <div className={styles["form-container"]}>
             <h2>Get in Touch</h2>
             <form data-aos="fade-up">
-              <label>
-                <div id={styles["Name"]}>Name</div>
-                <input type="text" name="name" id={styles["name-text"]} />
+              <label htmlFor={styles["name-text"]} className={styles.label}>
+                Full Name
+                <input
+                  type="text"
+                  name="name"
+                  id={styles["name-text"]}
+                  placeholder="Your full name"
+                  className={styles.input}
+                />
               </label>
               <br />
-              <label>
-                <div id={styles["Email"]}>Email</div>
-                <input type="email" name="email" id={styles["email-text"]} />
+              <label htmlFor={styles["email-text"]} className={styles.label}>
+                Email
+                <input
+                  type="email"
+                  name="email"
+                  id={styles["email-text"]}
+                  placeholder="Your email"
+                  className={styles.input}
+                />
               </label>
               <br />
-              <label>
-                <div id={styles["Message"]}>Message</div>
-                <textarea name="message" id={styles["message-text"]} />
+              <label htmlFor={styles["message-text"]} className={styles.label}>
+                Message
+                <textarea
+                  name="message"
+                  id={styles["message-text"]}
+                  placeholder="Your message"
+                  className={styles.textarea}
+                />
               </label>
               <br />
 

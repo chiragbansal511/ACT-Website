@@ -10,7 +10,7 @@ const About = () => {
     <Fragment>
       <Navbar />
       <div className={styles.aboutWrapper}>
-        <Header title="About" desc="Get to know us better" />
+        <Header title="About" desc="For you to get to know us better" />
         <div className={styles.tooMuchContent}>
           <div className={styles.content}>
             ACT Center strategically aims to instigate and promote
