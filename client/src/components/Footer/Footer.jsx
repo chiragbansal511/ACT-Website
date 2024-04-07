@@ -1,6 +1,6 @@
 import styles from "./Footer.module.scss";
 import { NavLink } from "react-router-dom";
-import FooterTriangle from "../../assets/FooterTri.png";
+// import FooterTriangle from "../../assets/FooterTri.png";
 const Footer = () => {
   return (
     <div className={styles.footerWrapper}>
@@ -48,11 +48,11 @@ const Footer = () => {
           <h4>Bhadson Rd, Adarsh Nagar, Patiala, Punjab 147004</h4>
         </div>
         <div className={styles.footerColumn}>
-          <img
+          {/* <img
             src={FooterTriangle}
             className={styles.footerTri}
             alt="FooterTriangle"
-          />
+          /> */}
         </div>
       </div>
     </div>

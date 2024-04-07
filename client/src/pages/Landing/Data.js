@@ -12,7 +12,7 @@ const Data = [
   {
     id: 2,
     name: "Dr. Santha Kumari",
-    designation: "Head TSLAS",
+    designation: "Head, TSLAS",
     imageUrl: santha,
   },
   {
