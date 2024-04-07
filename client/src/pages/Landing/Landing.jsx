@@ -7,6 +7,9 @@ import Left from "../../assets/Left.png";
 import Right from "../../assets/Right.png";
 import Footer from "../../components/Footer/Footer";
 import Button from "../../components/Button/Button";
+import Health from "../../assets/Health.png";
+import Environment from "../../assets/Environment.png";
+import Learning from "../../assets/Learning.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Landing = () => {
@@ -42,31 +45,43 @@ const Landing = () => {
 
           <div className={styles.areaOfInterestTileContainer}>
             <div className={styles.areaOfInterestTile}>
-              <img />
+              <img
+                src={Health}
+                className={styles.areaOfInterestIcons}
+                alt="Health"
+              />
               <h3>Health and Well Being</h3>
-              <h6>
+              <h5>
                 Unraveling health disparities, innovative healthcare delivery,
                 and the development of interventions to enhance overall
                 well-being.
-              </h6>
+              </h5>
             </div>
             <div className={styles.areaOfInterestTile}>
-              <img />
+              <img
+                src={Environment}
+                className={styles.areaOfInterestIcons}
+                alt="Environment"
+              />
               <h3>Environment, Energy and Sustainability</h3>
-              <h6>
+              <h5>
                 Exploration of sustainable solutions to environmental
                 challenges, including energy conservation, biodiversity
                 preservation, and mitigation of climate change impacts.
-              </h6>
+              </h5>
             </div>
             <div className={styles.areaOfInterestTile}>
-              <img />
+              <img
+                src={Learning}
+                className={styles.areaOfInterestIcons}
+                alt="Learning"
+              />
               <h3>Learning and Pedagogy</h3>
-              <h6>
+              <h5>
                 Investigating novel methods and strategies to advance education
                 and pedagogical practices, with a focus on improving learning
                 outcomes and fostering lifelong learning.
-              </h6>
+              </h5>
             </div>
           </div>
           <div className={styles.buttonContainer}>

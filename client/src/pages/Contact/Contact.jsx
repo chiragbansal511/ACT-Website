@@ -5,6 +5,7 @@ import Button from "../../components/Button/Button";
 import aos from "aos";
 import "aos/dist/aos.css";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
   useEffect(() => {
@@ -72,6 +73,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };
