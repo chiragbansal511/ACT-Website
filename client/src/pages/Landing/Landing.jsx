@@ -12,6 +12,8 @@ import Environment from "../../assets/Environment.png";
 import Learning from "../../assets/Learning.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Carousel from "./Carousel";
+import { Data } from "./Data";
 const Landing = () => {
   useEffect(() => {
     AOS.init({
@@ -92,7 +94,7 @@ const Landing = () => {
           </div>
         </div>
         <img src={Poster} className={styles.poster} alt="Poster" />
-        <div className={styles.moreInfoContainer} data-aos="fade-up">
+        {/* <div className={styles.moreInfoContainer} data-aos="fade-up">
           <div className={styles.moreInfoTile}>
             <div className={styles.moreInfoLeftOne}>
               <h2>Trans-Disciplinary Cooperation</h2>
@@ -132,7 +134,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Carousel data={Data} />
         <Footer />
         <div className={styles.copyright}>
           Copyright Thapar Institute of Engineering and Technology 2024
