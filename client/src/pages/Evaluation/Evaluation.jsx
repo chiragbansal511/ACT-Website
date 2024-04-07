@@ -1,14 +1,23 @@
 import { Fragment } from "react";
+import { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Evaluation.module.scss";
 import Footer from "../../components/Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Evaluation = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <Fragment>
       <Navbar />
       <Header title="Evaluation" desc="For you to shine" />
-      <div className={styles.tooMuchContent}>
+      <div className={styles.tooMuchContent} data-aos="fade-up">
         <div className={styles.content}>
           The approval of a proposal involves evaluating its feasibility,
           originality, relevance, innovation and potential impact across

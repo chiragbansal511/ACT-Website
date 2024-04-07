@@ -1,17 +1,24 @@
 import { Fragment } from "react";
+import { useEffect } from "react";
 import styles from "./About.module.scss";
 import Navbar from "../../components/Navbar/Navbar";
 import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <Fragment>
       <Navbar />
       <div className={styles.aboutWrapper}>
         <Header title="About" desc="For you to get to know us better" />
-        <div className={styles.tooMuchContent}>
+        <div className={styles.tooMuchContent} data-aos="fade-up">
           <div className={styles.content}>
             ACT Center strategically aims to instigate and promote
             transdisciplinary research within the Thapar Institute of
@@ -39,7 +46,7 @@ const About = () => {
             collective pursuit of knowledge and the common good.
           </div>
         </div>
-        <div className={styles.buttonContainer}>
+        <div className={styles.buttonContainer} data-aos="fade-up">
           <Button color="#F4970F">Submissions</Button>
         </div>
       </div>

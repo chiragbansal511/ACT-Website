@@ -1,14 +1,22 @@
 import { Fragment } from "react";
+import { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Support.module.scss";
 import Footer from "../../components/Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Support = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <Fragment>
       <Navbar />
       <Header title="Support" desc="For you to get funding for your project" />
-      <div className={styles.tooMuchContent}>
+      <div className={styles.tooMuchContent} data-aos="fade-up">
         <h2>Financing</h2>
         <div className={styles.content}>
           The projects approved are eligible for a grant of up to Rs. 12.50
