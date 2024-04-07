@@ -6,25 +6,25 @@ const Data = [
   {
     id: 1,
     name: "Dr. Efthymios Constantinides",
-    designation: "Chairperson",
+    designation: "Chair Professor at Center",
     imageUrl: chairman,
   },
   {
     id: 2,
     name: "Dr. Santha Kumari",
-    designation: "Chairperson",
+    designation: "Head TSLAS",
     imageUrl: santha,
   },
   {
     id: 3,
     name: "Dr. Rahul Upadhyay",
-    designation: "Chairperson",
+    designation: "Coordinator at Center",
     imageUrl: rahul,
   },
   {
     id: 4,
     name: "DR. T. Brandon Evans",
-    designation: "Chairperson",
+    designation: "Coordinator at Center",
     imageUrl: brandon,
   },
 ];
