@@ -15,17 +15,17 @@ export default function Carousel({ data }) {
         //   clickable: true,
         // }}
         breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
           640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 1,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 1,
           },
           1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+            slidesPerView: 4,
           },
         }}
         // modules={[Pagination]}

@@ -6,7 +6,7 @@ const Data = [
   {
     id: 1,
     name: "Dr. Efthymios Constantinides",
-    designation: "Chair Professor at Center",
+    designation: "Chair Professor, ACT Center",
     imageUrl: chairman,
   },
   {
@@ -18,13 +18,13 @@ const Data = [
   {
     id: 3,
     name: "Dr. Rahul Upadhyay",
-    designation: "Coordinator at Center",
+    designation: "Coordinator, ACT Center",
     imageUrl: rahul,
   },
   {
     id: 4,
     name: "DR. T. Brandon Evans",
-    designation: "Coordinator at Center",
+    designation: "Coordinator, ACT Center",
     imageUrl: brandon,
   },
 ];
