@@ -1,5 +1,46 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Koulen&display=swap');
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root{
+  --red: #D90000;
+  --lightbg: #F2F2F2;
+  --yellow: #ffb30f;
+
+}
+
+body {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+
+.button{
+  transition-duration: 200ms;
+}
+
+.button:hover{
+  transform: translateY(-5px);
+  filter: brightness(85%);
 }

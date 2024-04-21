@@ -1,34 +1,32 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-const Landing = lazy(() => import("./pages/Landing/Landing.jsx"));
-const About = lazy(() => import("./pages/About/About.jsx"));
-const Contact = lazy(() => import("./pages/Contact/Contact.jsx"));
-const Resources = lazy(() => import("./pages/Resources/Resources.jsx"));
-const Submissions = lazy(() => import("./pages/Submissions/Submissions.jsx"));
-const Support = lazy(() => import("./pages/Support/Support.jsx"));
-const Evaluation = lazy(() => import("./pages/Evaluation/Evaluation.jsx"));
-const People = lazy(() => import("./pages/People/People.jsx"));
-const NavBar = lazy(() => import("./components/Navbar/Navbar.jsx"));
+import Home from "./pages/Home/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 const AppRoute = () => {
   return (
+    <>
+    <NavBar/>
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/Navbar" element={<NavBar />} />
-          <Route path="/Landing" element={<Landing />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Resources" element={<Resources />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Submissions" element={<Submissions />} />
-          <Route path="/Support" element={<Support />} />
-          <Route path="/Evaluation" element={<Evaluation />} />
-          <Route path="/People" element={<People />} />
-          <Route path="*" element={<h1>Error 404</h1>} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Navbar"/>
+          <Route path="/Landing"/>
+          <Route path="/About"/>
+          <Route path="/Resources"/>
+          <Route path="/Contact"/>
+          <Route path="/Submissions"/>
+          <Route path="/Support"/>
+          <Route path="/Evaluation"/>
+          <Route path="/People"/>
+          <Route path="*"/>
         </Routes>
       </Suspense>
     </Router>
+    <Footer/>
+    </>
   );
 };
 

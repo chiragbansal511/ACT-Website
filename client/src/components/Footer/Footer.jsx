@@ -1,62 +1,43 @@
-import styles from "./Footer.module.scss";
-import { NavLink } from "react-router-dom";
-// import FooterTriangle from "../../assets/FooterTri.png";
-const Footer = () => {
-  return (
-    <div className={styles.footerWrapper}>
-      <div className={styles.footerContainer}>
-        <div className={styles.footerColumn}>
-          <h1>ACT CENTER</h1>
-          <h4>Thapar Institute of Engineering and Technology</h4>
-          <h4>
-            Trans disciplinary collaboration is not just encouraged but embedded
-            in our educational and research culture
-          </h4>
-        </div>
-        <div className={styles.footerColumn}>
-          <h3>QUICK LINKS</h3>
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/About">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Resources">Resources</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Submissions">Submissions</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Support">Support</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Evaluations">Evaluations</NavLink>
-            </li>
-            <li>
-              <NavLink to="/People">People</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.footerColumn}>
-          <h3>VISIT US</h3>
-          <h4>Thapar Institute of Engineering and Technology</h4>
-          <h4>Bhadson Rd, Adarsh Nagar, Patiala, Punjab 147004</h4>
-        </div>
-        <div className={styles.footerColumn}>
-          {/* <img
-            src={FooterTriangle}
-            className={styles.footerTri}
-            alt="FooterTriangle"
-          /> */}
-        </div>
-      </div>
-    </div>
-  );
-};
+import React from 'react'
+import "./Footer.css"
 
-export default Footer;
+export default function Footer() {
+  return (
+    <>
+    <div className='footer'>
+        <div className="footerColumn">
+            <h3>ACT CENTER</h3>
+            <p>Thapar Institute of Engineering and Technology</p>
+
+            <p>Trans disciplinary collaboration is not just encouraged but embedded in our educational and research culture</p>
+        </div>
+        <div className="footerColumn">
+            <h3>Quick Links</h3>
+            <div>
+                <p>Home</p>
+                <p>About</p>
+                <p>Resources</p>
+                <p>Submissions</p>
+                <p>Support</p>
+                <p>Evaluations</p>
+                <p>People</p>
+                <p>Contact</p>
+            </div>
+        </div>
+        <div className="footerColumn">
+            <h3>Visit Us</h3>
+            <p>
+            Thapar Institute of Engineering <br />
+            and Technology, <br />
+            Bhadson Rd, Adarsh Nagar, <br />
+            Patiala, Punjab 147004
+            </p>
+        </div>
+    </div>
+
+    <div className="subfooter">
+        Copyright Thapar Institute of Engineering and Technology, 2024
+    </div>
+    </>
+  )
+}

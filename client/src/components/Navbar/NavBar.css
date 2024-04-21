@@ -1,0 +1,67 @@
+.navbar{
+    background-color: var(--lightbg);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    transition-duration: 100ms;
+}
+
+.navbar:hover{
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+    flex-grow: 1;
+
+    font-family: "Koulen", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+
+}
+
+.navMenu{
+    background-color: var(--red);
+    margin-left: auto;
+    width: 85%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 50px;
+
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.navMenuItem{
+    color: white;
+    font-family: "Koulen", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.15em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    flex-grow: 1;
+    cursor: pointer;
+
+    transition-duration: 200ms;
+}
+
+.navMenuItem:hover{
+    background-color: var(--yellow);
+}
+
+.navMenu:hover > .navMenuItem:not(:hover){
+    opacity: 50%;
+}

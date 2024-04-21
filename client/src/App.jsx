@@ -1,10 +1,11 @@
-import {Fragment} from 'react';
 import AppRoute from './Routes';
+import "./App.css"
+
 function App () {
   return (
-    <Fragment>
-       <AppRoute />
-    </Fragment>
+    <>
+      <AppRoute />
+    </>
   );
 }
 

@@ -1,0 +1,236 @@
+.hero{
+    height: 110vh;
+    background-image: url("../../assets/landingBG1.jpg");
+    background-color: black;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 100%, 0 80%, 0 0);
+}
+
+.homeLeft{
+    width: 1000px;
+    height: inherit;
+    background-image: url("../../assets/landingBG2.jpg");
+    background-size: cover;
+    clip-path: polygon(44% 0, 100% 75%, 64% 100%, 0% 100%, 0 0);
+
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: light;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding-top: 150px;
+
+    padding-left: 50px;
+}
+
+.homeLeft > h1{
+    color: white;
+    font-size: 7em;
+    line-height: 0.8em;
+
+    letter-spacing: 10px;
+}
+
+.homeLeft > h3{
+
+    margin-top: 0px;
+    padding-top: 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    font-family: "Koulen";
+    font-weight: 400;
+
+}
+
+.homeLeft > p{
+    font-family: "Lato";
+    font-size: 0.8em;
+    margin-top: 20px;
+
+    text-wrap: wrap;
+    width: 500px;
+}
+
+.homeButtonCont{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.homeButton{
+    width: fit-content;
+    font-family: "Lato";
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 0px solid;
+    font-size: 0.7em;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.homeButtonCont > .homeButton:nth-of-type(1){
+    background-color: var(--red);
+    color: white;
+}
+
+.homeButtonCont > .homeButton:nth-of-type(2){
+    background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*two*/
+.homeInterestAreas{
+    min-height: 150vh;
+    background-color: var(--lightbg);
+    margin-top: -150px;
+    padding-top: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeInterestAreas > h1, h3{
+    font-family: "jost";
+}
+
+.homeInterestAreas > h1{
+    font-weight: 550;
+    font-size: 3em;
+    margin-top: -10px;
+}
+
+.homeInterestAreas > h3{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.homeInterestAreaCont{
+    display: flex;
+    gap: 100px;
+
+    margin-top: 50px;
+}
+
+.homeInterestArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-family: "jost";
+
+    width: 300px;
+}
+
+.homeInterestArea > img{
+    width: 120px;
+}
+
+.homeInterestArea > h3{
+    font-size: 1.5em;
+    font-weight: 500;
+
+    margin-top: 30px;
+}
+.homeInterestArea > p{
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*three*/
+
+.homePoster{
+    background-image: url("../../assets/landingBG1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 0);
+
+
+}
+
+
+
+
+/*four*/
+
+.homeVideos{
+    height: 200vh;
+    background-color: var(--lightbg);
+    margin-top: -250px;
+    padding-top: 250px;
+}
+
+.homeVideoSection{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+
+    margin-top: 100px;
+}
+
+.homeVideoSectionText{
+    flex-grow: 1;
+    width: 50%;
+
+    font-family: "Jost";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeVideoSectionText > h3{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.homeVideoSectionText > p{
+    font-size: 0.75em;
+    margin-bottom: 20px;
+}
+
+.homeVideoSectionText > button{
+    color: white;
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.homeVideoSectionVideo{
+    flex-grow: 1;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(133, 133, 133);
+}

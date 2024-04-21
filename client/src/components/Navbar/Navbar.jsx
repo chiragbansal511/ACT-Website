@@ -1,54 +1,22 @@
-import { Fragment, useState } from "react";
-import { NavLink } from "react-router-dom";
-import styles from "./Navbar.module.scss";
-import logo from "../../assets/logo.webp";
-import classNames from "classnames";
+import React from 'react'
+import "./NavBar.css"
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <Fragment>
-      <nav className={styles.navbar}>
-        <img src={logo} alt="logo" />
-        <span
-          className={classNames("material-icons", styles.hamburger)}
-          onClick={toggleMenu}
-        >
-          menu
-        </span>
-        <ul className={isOpen ? styles.showMenu : ""}>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/About">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Resources">Resources</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Submissions">Submissions</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Support">Support</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Evaluation">Evaluations</NavLink>
-          </li>
-          <li>
-            <NavLink to="/People">People</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-        </ul>
-      </nav>
-    </Fragment>
-  );
-};
-export default Navbar;
+export default function NavBar() {
+    return (
+        <div className='navbar'>
+            <div className="logo">
+                ACT CENTER
+            </div>
+            <div className="navMenu">
+                <div className='navMenuItem'>Home</div>
+                <div className='navMenuItem'>About</div>
+                <div className='navMenuItem'>Resources</div>
+                <div className='navMenuItem'>Submissions</div>
+                <div className='navMenuItem'>Support</div>
+                <div className='navMenuItem'>Evaluations</div>
+                <div className='navMenuItem'>People</div>
+                <div className='navMenuItem'>Contact</div>
+            </div>
+        </div>
+    )
+}
