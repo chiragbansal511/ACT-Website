@@ -17,7 +17,6 @@ const AppRoute = () => {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Navbar"/>
-          <Route path="/Landing"/>
           <Route path="/About" element={<Aboutus />}/>
           <Route path="/Resources"/>
           <Route path="/Contact" element={<Contact/>}/>

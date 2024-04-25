@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Koulen&display=swap');
-
 .body{
     padding: 10vw;
 }
+
+.leaflet-container{
+    height: 100%;
+    filter: saturate(1) saturate(1.2);
+  }
+  
 .body > p{
     font-family: "Jost", sans-serif;
     text-align: justify;
@@ -26,6 +30,7 @@
     margin-top: 30px;
     letter-spacing: normal;
     font-weight: 600;
+    font-size: 0.75em;
 }
 
 .aboutButton{
@@ -33,7 +38,11 @@
     background: linear-gradient(20deg, rgba(5,255,0,1) 0%, rgba(250,255,0,1) 100%);
 }
 
-
+.contactButton{
+    padding: 10px 40px;
+    background: rgb(0,178,255);
+    background: linear-gradient(30deg, rgba(0,178,255,1) 20%, rgb(0, 92, 153) 100%);
+}
 
 .body > div.matrix{
     width: 100%;
@@ -46,7 +55,7 @@
 }
 
 .row > .col{
-    flex-grow: 1;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
