@@ -7,12 +7,14 @@
     top: 0;
     z-index: 100;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    transition: height 500s;
+    
+    transition-duration: 500ms;
+    transition-property: height;
 }
 
-.navbar:hover{
-    height: 10vh;
-}
+/* .navbar:hover{
+    height: 90px;
+} */
 
 .logo{
     display: flex;

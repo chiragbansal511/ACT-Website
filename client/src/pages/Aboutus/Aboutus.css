@@ -1,23 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Koulen&display=swap');
 
-.body {
-    font-family: "Jost", sans-serif;
-    font-size: 1.3em;
-    font-weight : 450;
-    font-style: normal;
+.body{
     padding: 10vw;
 }
-
-.body>div {
-    margin-bottom: 45px;
+.body > p{
+    font-family: "Jost", sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    font-weight : 450;
 }
 
-button{
-    background-color: #05FF00;
-    width: 12vw ;
-    height: 6vh;
-    border: 1px solid #05FF00;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: large;
+.body > h1{
+    font-family: "Jost", sans-serif;
+    font-weight : 450;
+    text-align: justify;
+    font-size: 1.75em;
+    margin-bottom: 0.25lh;
+}
+
+.body > h1:not(:nth-of-type(1)){
+    margin-top: 1lh;
+}
+
+.body > button{
+    margin-top: 30px;
+    letter-spacing: normal;
+    font-weight: 600;
+}
+
+.aboutButton{
+    background: rgb(5,255,0);
+    background: linear-gradient(20deg, rgba(5,255,0,1) 0%, rgba(250,255,0,1) 100%);
+}
+
+
+
+.body > div.matrix{
+    width: 100%;
+}
+
+.matrix > .row{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.row > .col{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.col > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+input{
+
+    font-family: "Jost", sans-serif;
+    font-weight : 450;
+
+    height: 40px;
+    background-color: lightgray;
+    border: 0px solid;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 0.75em;
+}
+
+textarea{
+    
+    font-family: "Jost", sans-serif;
+    font-weight : 450;
+    font-size: 0.75em;
+
+    background-color: lightgray;
+    border: 0px solid;
+    border-radius: 8px;
+    padding: 10px;
+
 }

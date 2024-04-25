@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 .main{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -10,25 +10,23 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 35vh;
+    height: 40vh;
     background-image: url("../../assets/mainbackground.png");
     background-size: contain;
 }
 
 .heading{
     font-family: "Koulen", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 5em;
     color: white;
-    display: inline;
-    line-height: 12vh;
-   
 }
 
-.title{
-    
-    font-size: xx-large;
-    font-weight: lighter;
+.subHead{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    margin-top: -55px;
+    font-size: 1.25em;
     color: white;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
+import { Link } from 'react-router-dom'
 
 export default function NavBar() {
     return (
@@ -11,7 +12,7 @@ export default function NavBar() {
                 <div className='navMenuItem'>Home</div>
                 <div className='navMenuItem'>About</div>
                 <div className='navMenuItem'>Resources</div>
-                <div className='navMenuItem'>Submissions</div>
+                <div className='navMenuItem'>Submission</div>
                 <div className='navMenuItem'>Support</div>
                 <div className='navMenuItem'>Evaluations</div>
                 <div className='navMenuItem'>People</div>
