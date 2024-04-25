@@ -1,22 +1,22 @@
 import React from 'react'
 import "./NavBar.css"
-import { Link } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom';
 
 export default function NavBar() {
+
     return (
         <div className='navbar'>
             <div className="logo">
                 ACT CENTER
             </div>
             <div className="navMenu">
-                <div className='navMenuItem'>Home</div>
-                <div className='navMenuItem'>About</div>
-                <div className='navMenuItem'>Resources</div>
-                <div className='navMenuItem'>Submission</div>
-                <div className='navMenuItem'>Support</div>
-                <div className='navMenuItem'>Evaluations</div>
-                <div className='navMenuItem'>People</div>
-                <div className='navMenuItem'>Contact</div>
+                <a className='navMenuItem' href='/'>Home</a>
+                <a className='navMenuItem' href='/about'>About</a>
+                <a className='navMenuItem' href='/'>Resources</a>
+                <a className='navMenuItem' href='/submission'>Submission</a>
+                <a className='navMenuItem' href='/support'>Support</a>
+                <a className='navMenuItem' href='/evaluation'>Evaluations</a>
+                <a className='navMenuItem' href='/contact'>Contact</a>
             </div>
         </div>
     )
