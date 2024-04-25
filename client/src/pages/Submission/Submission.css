@@ -1,0 +1,57 @@
+.bodysub{
+    font-family: "Jost";
+}
+
+.bodysubsec1 {
+padding: 3vw 7vw;
+}
+
+.bodysubsec1 > h1 , .bodysubsec2 >h1{
+    font-weight: 400;
+    margin-bottom: 2.5vh;
+}
+
+.bodysubsec1 > p {
+    margin-bottom: 15px;
+    margin-bottom: 4vh;
+    font-weight: 450;
+}
+
+.bodysubsec2{
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin-top: -4vh;
+    margin-bottom: 3vh;
+}
+
+
+.listitemheading{
+font-family: "Jost";
+font-weight: bold;
+}
+
+.listitemtitle{
+    font-family: "Jost";
+    font-size: .8em;
+    margin-bottom: 4vh;
+    
+}
+
+.bodysubsec2listview{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.bodysubsec2listview > ul{
+    list-style: none;
+   
+}
+
+.bodysubsec2listviewul1{
+    padding-right: 4vw;
+}
+
+.bodysubsec2listviewul2{
+    padding-left: 4vw;
+}

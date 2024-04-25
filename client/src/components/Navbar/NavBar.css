@@ -67,3 +67,7 @@
 .navMenu:hover > .navMenuItem:not(:hover){
     opacity: 50%;
 }
+
+a{
+    text-decoration: none;
+}
