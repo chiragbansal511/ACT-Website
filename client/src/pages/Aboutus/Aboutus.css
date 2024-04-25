@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Koulen&display=swap');
+
+.body {
+    font-family: "Jost", sans-serif;
+    font-size: 1.3em;
+    font-weight : 450;
+    font-style: normal;
+    padding: 10vw;
+}
+
+.body>div {
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #05FF00;
+    width: 12vw ;
+    height: 6vh;
+    border: 1px solid #05FF00;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+}
