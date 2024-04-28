@@ -24,6 +24,7 @@ const Body = () => {
                                 <input type="text" placeholder="Full Name" />
                                 <input type="text" placeholder="Email" />
                                 <textarea rows="10" placeholder="Message"></textarea>
+                                <button className="button homeButton contactButton">Submit</button>
                             </form>
                         </div>
                         <div className="col">
@@ -35,7 +36,6 @@ const Body = () => {
                         </div>
                     </div>
                 </div>
-                <button className="homeButton contactButton">Submit</button>
 
             </div>
         </div>

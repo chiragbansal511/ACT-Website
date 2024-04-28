@@ -21,15 +21,14 @@ export default function Home() {
                     </p>
 
                     <div className='homeButtonCont'>
-                        <button className='homeButton button'>Research Topics</button>
-                        <button className='homeButton button'>Trello</button>
+                        <a href="#kuchto"> <button className='homeButton button'>Research Topics</button> </a>
+                        <a href="#kuchto"> <button className='homeButton button'>Trello</button> </a>
                     </div>
-
 
                 </div>
             </div>
 
-            <div className="homeInterestAreas">
+            <div className="homeInterestAreas" id='kuchto'>
 
                 <h3>Stride towards perfection</h3>
                 <h1>Areas Of Interest</h1>
@@ -55,8 +54,8 @@ export default function Home() {
                 </div>
 
                 <div className="homeButtonCont">
-                    <button className='homeButton button'> Read More </button>
-                    <button className='homeButton button'> Research Topics </button>
+                    <a href="/about"> <button className='homeButton button'>Read More </button> </a>
+                    <a href="/submission"> <button className='homeButton button'> Submissions </button> </a>
                 </div>
 
             </div>
@@ -75,19 +74,19 @@ export default function Home() {
                         <button className='homeButton button red'>Read More</button>
                     </div>
                     <div className="homeVideoSectionVideo">
-                        Comming Soon
+                        <iframe height="100%" width="100%" src="https://www.youtube.com/embed/mtVY5SXH_f0" title="ACT Centre Envision (Director&#39;s Message)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
 
                 <div className="homeVideoSection">
                     <div className="homeVideoSectionVideo">
-                        Comming Soon
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RIhDXrASvAI" title="ACT Centre: Introduction and Expectations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div className="homeVideoSectionText" style={{marginRight: "50px"}}>
                         <h3>Cutting-Edge Research</h3>
-                        <p>At the core of ACT Center’s mission is the pursuit of research categorized by novelty and the potential for significant impact, aligning with Thapar’s commitment to academic excellence. The expectation for approved projects is the co-authoring of research papers publishable in peer-reviewed academic journals. Other forms of outcomes (artistic, practical, educational, etc.) could be secondary outcomes of research in the context of the ACT Center.</p>
+                        <p>At the core of ACT Center's mission is the pursuit of research categorized by novelty and the potential for significant impact, aligning with Thapar’s commitment to academic excellence. The expectation for approved projects is the co-authoring of research papers publishable in peer-reviewed academic journals. Other forms of outcomes (artistic, practical, educational, etc.) could be secondary outcomes of research in the context of the ACT Center.</p>
 
-                        <button className='homeButton button yellow'>Read More</button>
+                        <button style={{color: "black"}} className='homeButton button yellow'>Read More</button>
                     </div>
                 </div>
 

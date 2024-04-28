@@ -28,19 +28,6 @@ const Body = () => {
           of the proposal. A minimum grade is required for a proposal to be
           accepted. All issues mentioned must be addressed in the proposal.
         </p>
-        
-        <p>
-            <br />
-            <ul>
-                <li>Integration of disciplines</li>
-                <li>Research Problem and Objectives</li>
-                <li>Methodological Rigor</li>
-                <li>Academic Relevance and Societal Impact</li>
-                <li>Effective Communication and Collaboration Plan and Effective Dissemination</li>
-                <li>Feasibility and Resources</li>
-                <li>Ethical Considerations</li>
-            </ul>
-        </p>
 
         <h1></h1>
         <h1>Evalutaion Matrix</h1>

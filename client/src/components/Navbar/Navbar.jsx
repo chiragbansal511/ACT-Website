@@ -12,7 +12,7 @@ export default function NavBar() {
             <div className="navMenu">
                 <a className='navMenuItem' href='/'>Home</a>
                 <a className='navMenuItem' href='/about'>About</a>
-                <a className='navMenuItem' href='/'>Resources</a>
+                <a className='navMenuItem' href='resources'>Resources</a>
                 <a className='navMenuItem' href='/submission'>Submission</a>
                 <a className='navMenuItem' href='/support'>Support</a>
                 <a className='navMenuItem' href='/evaluation'>Evaluations</a>

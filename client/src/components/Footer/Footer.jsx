@@ -5,6 +5,9 @@ export default function Footer() {
   return (
     <>
     <div className='footer'>
+        
+        {/* <div className="sideElement"></div> */}
+
         <div className="footerColumn">
             <h3>ACT CENTER</h3>
             <p>Thapar Institute of Engineering and Technology</p>

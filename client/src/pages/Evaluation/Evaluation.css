@@ -12,3 +12,13 @@
 .eval > tr > td:nth-of-type(2){
     text-align: center;
 }
+
+.eval > tr > td > a{
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
+    transition: color 200ms;
+}
+
+.eval > tr > td > a:hover{
+    color: rgb(0, 89, 172);
+}

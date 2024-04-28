@@ -2,32 +2,19 @@
     font-family: "Jost";
 }
 
-.bodysubsec1 {
-padding: 3vw 7vw;
-}
-
 .bodysubsec1 > h1 , .bodysubsec2 >h1{
     font-weight: 400;
     margin-bottom: 2.5vh;
 }
 
-.bodysubsec1 > p {
-    margin-bottom: 15px;
-    margin-bottom: 4vh;
-    font-weight: 450;
-}
-
-.bodysubsec2{
-    padding-left: 7vw;
-    padding-right: 7vw;
-    margin-top: -4vh;
-    margin-bottom: 3vh;
-}
-
-
 .listitemheading{
-font-family: "Jost";
-font-weight: bold;
+    font-family: "Jost";
+    font-weight: bold;
+    text-align: left;
+}
+
+.listitem{
+    height: fit-content;
 }
 
 .listitemtitle{
@@ -39,19 +26,47 @@ font-weight: bold;
 
 .bodysubsec2listview{
     display: flex;
-    flex-direction: row;
     text-align: justify;
+    gap: 8vw;
 }
 
 .bodysubsec2listview > ul{
     list-style: none;
-   
+    width: 50%;
 }
 
-.bodysubsec2listviewul1{
-    padding-right: 4vw;
+.submissionForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
 }
 
-.bodysubsec2listviewul2{
-    padding-left: 4vw;
+.submissionForm > .row{
+    width: 100%;
+    display: flex;
+    gap: 4vw;
+}
+
+.submissionForm > .row > .col{
+    width: 100%;
+    display: flex;
+
+}
+
+.submissionForm > .row > .col > input, textarea{
+    font-size: 16px;
+}
+
+.submissionForm > .row > .col > .button{
+    height: 100%;
+    border-radius: 8px;
+    border: 0px solid;
+    font-family: "Jost";
+    font-size: large;
+
+    background: rgb(5,255,0);
+    background: linear-gradient(20deg, rgba(5,255,0,1) 0%, rgba(250,255,0,1) 100%);
+
+    font-weight: 450;
 }
