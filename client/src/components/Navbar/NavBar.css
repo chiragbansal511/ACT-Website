@@ -71,3 +71,10 @@
 a{
     text-decoration: none;
 }
+
+select{
+    background-color: var(--red);
+    border: 0px;
+    text-align: center;
+    user-select: none;
+}

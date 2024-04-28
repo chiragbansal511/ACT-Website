@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavBar.css"
-import { Outlet, Link } from 'react-router-dom';
+
 
 export default function NavBar() {
 
@@ -11,7 +11,10 @@ export default function NavBar() {
             </div>
             <div className="navMenu">
                 <a className='navMenuItem' href='/'>Home</a>
-                <a className='navMenuItem' href='/about'>About</a>
+                <select className='navMenuItem' onChange={(e)=>window.location = e.target.value} >
+                    <option value="/team">Team</option>
+                    <option value="/about">About</option>
+                </select>
                 <a className='navMenuItem' href='resources'>Resources</a>
                 <a className='navMenuItem' href='/submission'>Submission</a>
                 <a className='navMenuItem' href='/support'>Support</a>

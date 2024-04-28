@@ -9,6 +9,7 @@ import Evaluation from "./pages/Evaluation/Evaluation";
 import Contact from "./pages/Contact/Contact";
 import Submission from "./pages/Submission/Submission";
 import Resources from "./pages/Resources/Resources";
+import Team from "./pages/Team/Team";
 
 const AppRoute = () => {
   return (
@@ -24,7 +25,8 @@ const AppRoute = () => {
           <Route path="/Contact" element={<Contact/>}/>
           <Route path="/Submission" element={<Submission />}/>
           <Route path="/Support" element={<Support/>}/>
-          <Route path="/Evaluation" element={<Evaluation/>}/>
+          <Route path="/Evaluation" element={<Evaluation/>}/> 
+          <Route path="/Team" element={<Team/>}/> 
           <Route path="*"/>
         </Routes>
       </Suspense>
