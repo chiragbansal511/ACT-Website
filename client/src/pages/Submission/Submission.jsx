@@ -43,7 +43,9 @@ const Body = () => {
         <br />
         The interim and final evaluations will be done by the Centre.
       </p>
-
+      <button className="homeButton aboutButton">
+        <a href="/examples">Example Projects</a>
+      </button>
       <h1>Financing</h1>
       <p>
         The projects approved are eligible for a grant of up to Rs. 12.50 Lacs.
@@ -68,11 +70,7 @@ const Body = () => {
         uploaded to www.act.thapar.edu
       </p>
 
-      <button className="homeButton aboutButton">
-        <a href="/examples">Example Projects</a>
-      </button>
-
-      {/* <h1>Submission Form</h1>
+      <h1>Submission Form</h1>
       <form action="" className="submissionForm">
         <div className="row">
           <div className="col">
@@ -118,7 +116,7 @@ const Body = () => {
           </div>
         </div>
 
-      </form> */}
+      </form>
     </div>
   );
 };
