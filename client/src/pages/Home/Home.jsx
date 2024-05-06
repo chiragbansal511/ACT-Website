@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="homeVideoSection">
                     <div className="homeVideoSectionText" style={{marginLeft: "50px"}}>
                         <h3>Trans-disciplinary Cooperation</h3>
-                        <p>The Center aims to facilitate collaboration among diverse faculties, breaking down traditional silos to encourage the convergence of ideas, methodologies, and expertise. By fostering a culture of collaboration, we foresee the emergence of innovative solutions to complex problems</p>
+                        <p>The Center aims to facilitate collaboration among diverse faculties, breaking down traditional silos to encourage the convergence of ideas, methodologies, and expertise. By fostering a culture of collaboration, we foresee the emergence of innovative solutions to complex problems.</p>
 
                         <button className='homeButton button red'>Read More</button>
                     </div>
@@ -80,7 +80,7 @@ export default function Home() {
 
                 <div className="homeVideoSection">
                     <div className="homeVideoSectionVideo">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RIhDXrASvAI" title="ACT Centre: Introduction and Expectations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Hr_48d8YKNw" title="ACT Centre: Introduction and Expectations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div className="homeVideoSectionText" style={{marginRight: "50px"}}>
                         <h3>Cutting-Edge Research</h3>

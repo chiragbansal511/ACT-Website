@@ -13,6 +13,41 @@ const Body = () => {
   return (
     <div>
       <div className="body">
+        <h1>Background</h1>
+        <p>
+          Transdisciplinary research represents an evolving paradigm (Beavis and Gibbs, 2020) that
+          transcends traditional disciplinary boundaries, by encouraging collaboration and integration
+          of knowledge from various fields. Transdisciplinary research proves particularly efficacious
+          when tackling complex problems that elude comprehensive knowledge or resolution beyond
+          the confines of a solitary discipline. This is because the nature of many pressing
+          contemporary societal challenges necessitates an approach that surpasses isolated
+          disciplinary approaches: multiple disciplinary perspectives provide partial and often
+          incompatible explanations of the structures, causes, or effects that matter. Often, many
+          candidate solutions are available to address these issues, but there is uncertainty or
+          disagreement about what to prioritize or avoid. In addressing these complex issues, the
+          isolationist stance of a singular discipline&#39;s rigorous scientific criteria may fall short of
+          generating socially robust outcomes. (Nowotny et al., 2003).
+
+          <br /><br />
+
+          According to Pohl et al. (2007), transdisciplinary research is most needed in situations when
+          Knowledge about a societally relevant problem field is uncertain when the concrete nature
+          of problems is disputed, and when there is a great deal at stake for those concerned by
+          problems and involved in dealing with them.
+          <br /><br />
+
+          Transdisciplinary research deals with problem fields in such a way that it can:
+          <ul>
+            <li>grasp the complexity of problems</li>
+            <li>take into account the diversity of life-world and scientific perceptions of problems</li>
+            <li>link abstract and case-specific knowledge, and</li>
+            <li>develop knowledge and practices that promote what is perceived to be the common
+              good. (Pohl et al. 2007 )</li>
+          </ul>
+
+        </p>
+
+        <h1>Mission</h1>
         <p>
           ACT Center strategically aims to instigate and promote
           transdisciplinary research within the Thapar Institute of Engineering
@@ -39,7 +74,8 @@ const Body = () => {
           pursuit of knowledge and the common good.
         </p>
 
-        <button className="homeButton aboutButton">Submission</button>
+        <button className="homeButton aboutButton"><a href="/submission">Project Submission</a></button>
+
       </div>
     </div>
   );

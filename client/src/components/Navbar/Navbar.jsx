@@ -14,8 +14,8 @@ export default function NavBar() {
                 <a className='navMenuItem' href='/about'>About</a>
                 <a className='navMenuItem' href='resources'>Resources</a>
                 <a className='navMenuItem' href='/submission'>Submission</a>
-                <a className='navMenuItem' href='/support'>Support</a>
-                <a className='navMenuItem' href='/evaluation'>Evaluations</a>
+                {/* <a className='navMenuItem' href='/support'>Support</a> */}
+                <a className='navMenuItem' href='/evaluation'>Evaluation</a>
                 <a className='navMenuItem' href='/contact'>Contact</a>
             </div>
         </div>

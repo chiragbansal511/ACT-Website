@@ -30,9 +30,19 @@ const Body = () => {
         </p>
 
         <h1></h1>
-        <h1>Evalutaion Matrix</h1>
+        <h1>Evalutaion Parameters</h1>
 
-        <table border="10" className="eval">
+        <ul>
+          <li>Integration of Disciplines</li>
+          <li>Research Problem and Objectives</li>
+          <li>Methodological Rigor</li>
+          <li>Academic Relevance and Societal Impact</li>
+          <li>Effective Communication and Collaboration Plan and Effective Dissemination</li>
+          <li>Feasibility and Resources</li>
+          <li>Ethical Considerations</li>
+        </ul>
+
+        {/* <table border="10" className="eval">
           <tr>
             <th>Criteria</th>
             <th>Weight</th>
@@ -115,7 +125,7 @@ const Body = () => {
             </td>
             <td>2</td>
           </tr>
-        </table>
+        </table> */}
         
       </div>
     </div>
