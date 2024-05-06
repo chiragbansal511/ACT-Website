@@ -6,7 +6,7 @@ export default function Submission() {
     <div>
       <Main
         Heading="Submissions"
-        SubHead="Get to know us better"
+        SubHead="Share your work"
         Body={Body()}
       />
     </div>
@@ -22,7 +22,7 @@ const Body = () => {
         extension up to one year. Please use submission template while preparing
         the project proposal.
         {" ("}
-        <a
+        <a target="_blank"
           className="genlink"
           href="https://drive.google.com/file/d/1dmXYwjakHYbe5Cj0psC1y58VZh5xTiDd/view?usp=sharing"
         >
@@ -43,7 +43,7 @@ const Body = () => {
         <br />
         The interim and final evaluations will be done by the Centre.
       </p>
-      <button className="homeButton aboutButton">
+      <button className="button homeButton aboutButton">
         <a href="/examples">Example Projects</a>
       </button>
       <h1>Financing</h1>

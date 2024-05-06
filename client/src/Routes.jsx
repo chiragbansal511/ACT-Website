@@ -10,6 +10,7 @@ import Contact from "./pages/Contact/Contact";
 import Submission from "./pages/Submission/Submission";
 import Resources from "./pages/Resources/Resources";
 import ExProjects from "./pages/ExProjects/ExProjects";
+import Biblo from "./pages/Biblo/Biblo";
 
 const AppRoute = () => {
   return (
@@ -27,6 +28,7 @@ const AppRoute = () => {
           <Route path="/Support" element={<Support/>}/>
           <Route path="/Evaluation" element={<Evaluation/>}/>
           <Route path="/Examples" element={<ExProjects/>}/>
+          <Route path="/biblo" element={<Biblo/>}/>
           <Route path="*"/>
         </Routes>
       </Suspense>

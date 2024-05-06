@@ -11,9 +11,10 @@ export default function Footer() {
 
         <div className="footerColumn">
             <h3>ACT CENTER</h3>
-            <p>Thapar Institute of Engineering and Technology</p>
-
+            <p>Thapar School of Liberal Art and Sciences (TSLAS)</p>
             <p>Transdisciplinary collaboration is not just encouraged but embedded in our educational and research culture</p>
+            <br />
+            <p>Reach out to us at: act@thapar.edu</p>
         </div>
         <div className="footerColumn">
             <h3>Quick Links</h3>
@@ -26,13 +27,14 @@ export default function Footer() {
                 <p><a href="/evaluation">Evaluations</a></p>
                 <p><a href="/people">People</a></p>
                 <p><a href="/contact">Contact</a></p>
+                <p><a href="/biblo">Biblography</a></p>
             </div>
         </div>
         <div className="footerColumn">
             <h3>Visit Us</h3>
             <p>
-            Thapar Institute of Engineering <br />
-            and Technology, <br />
+            Thapar School of Liberal Art and Sciences <br />
+            Thapar Institute of Engineering and Technology, <br />
             Bhadson Rd, Adarsh Nagar, <br />
             Patiala, Punjab 147004
             </p>

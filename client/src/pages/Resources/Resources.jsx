@@ -5,7 +5,7 @@ export default function Resources() {
     <div>
       <Main
         Heading="Resources"
-        SubHead="Get to know us better"
+        SubHead="Find helpful materials"
         Body={Body()}
       />
     </div>
@@ -29,7 +29,7 @@ const Body = () => {
                 Network for Transdisciplinary research
             </td>
             <td>
-                <a href="https://transdisciplinarity.ch/en">https://transdisciplinarity.ch/en</a>
+                <a target="_blank" href="https://transdisciplinarity.ch/en">https://transdisciplinarity.ch/en</a>
             </td>
           </tr>
 
@@ -37,21 +37,21 @@ const Body = () => {
             <td>
               Trello (Project Management Tool)
             </td>
-            <td><a href="https://trello.com/">https://trello.com/</a></td>
+            <td><a target="_blank" href="https://trello.com/">https://trello.com/</a></td>
           </tr>
 
           <tr>
             <td>
               How to use Trello
             </td>
-            <td><a href="https://www.youtube.com/watch?v=sC6UwpVEEE0&t=797s">Youtube Video</a></td>
+            <td><a target="_blank" href="https://www.youtube.com/watch?v=sC6UwpVEEE0&t=797s">Youtube Video</a></td>
           </tr>
 
           <tr>
             <td>
               Transdisciplinary Research
             </td>
-            <td><a href="https://publications.tno.nl/publication/34640917/PAkH88/TNO-2023-transdisciplinary.pdf">https://publications.tno.nl/</a></td>
+            <td><a target="_blank" href="https://publications.tno.nl/publication/34640917/PAkH88/TNO-2023-transdisciplinary.pdf">https://publications.tno.nl/</a></td>
           </tr>
 
         </table>

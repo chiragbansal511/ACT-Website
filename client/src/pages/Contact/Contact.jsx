@@ -6,7 +6,7 @@ import "./Contact.css";
 export default function Contact() {
     return (
         <div>
-            <Main Heading="Contact Us" SubHead="Let us help you" Body={Body()} />
+            <Main Heading="Contact Us" SubHead="Get in touch" Body={Body()} />
         </div>
     );
 }
@@ -16,6 +16,7 @@ const Body = () => {
         <div>
             <div className="body">
                 <h1>Get in touch</h1>
+                <p style={{marginTop: "-0.8lh", fontSize: "0.9em", marginBottom:"30px"}}>Write to us at: act@thapar.edu</p>
 
                 <div className="matrix">
                     <div className="row">

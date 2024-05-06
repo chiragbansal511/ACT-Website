@@ -6,7 +6,7 @@ export default function Evaluation() {
     <div>
       <Main
         Heading="Evaluation"
-        SubHead="Get to know us better"
+        SubHead="parameters to care"
         Body={Body()}
       />
     </div>
@@ -41,6 +41,10 @@ const Body = () => {
           <li>Feasibility and Resources</li>
           <li>Ethical Considerations</li>
         </ul>
+
+        <br />
+        <p>Supporting Documents</p>
+        <p> <a target="_blank" href="https://drive.google.com/file/d/1P3tTYSvEnoCUiZcnZCWML3avB7mQGIN1/view?usp=sharing" className="genlink">More details</a> | <a target="_blank" className="genlink" href="https://drive.google.com/file/d/1P3tTYSvEnoCUiZcnZCWML3avB7mQGIN1/view?usp=sharing">Evaluation Matrix</a></p>
 
         {/* <table border="10" className="eval">
           <tr>

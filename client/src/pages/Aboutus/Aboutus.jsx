@@ -49,7 +49,7 @@ const Body = () => {
 
         <h1>Mission</h1>
         <p>
-          ACT Center strategically aims to instigate and promote
+          ACT Centre strategically aims to instigate and promote
           transdisciplinary research within the Thapar Institute of Engineering
           and Technology. This goal aligns with the Thapar Institute’s
           commitment to staff personal and professional development, and the
@@ -59,7 +59,7 @@ const Body = () => {
           technological university in India and internationally.
           <br />
           <br />
-          The ACT Center extends an invitation to all academic personnel to
+          The ACT Centre extends an invitation to all academic personnel to
           actively engage in this initiative by identifying transdisciplinary
           research topics connecting with colleagues from diverse knowledge
           domains and proposing projects that promise novel and high-quality
@@ -67,7 +67,7 @@ const Body = () => {
           <br />
           <br />
           To ensure the depth and breadth of transdisciplinary engagement, the
-          ACT Center stipulates that a minimum of three disciplines must be
+          ACT centre stipulates that a minimum of three disciplines must be
           involved in the proposal to be eligible for financial support. This
           requirement underscores our commitment to fostering truly integrative
           research endeavors that contribute meaningfully to the collective
