@@ -1,13 +1,15 @@
 import React from 'react'
 import "./NavBar.css"
 import { Outlet, Link } from 'react-router-dom';
+import logo from '../../assets/logo.png'
 
 export default function NavBar() {
 
     return (
         <div className='navbar'>
             <div className="logo">
-                ACT CENTER
+                <div><img src={logo} className='imglogo'/></div>
+                <div className='textlogo'>ACT CENTER</div>
             </div>
             <div className="navMenu">
                 <a className='navMenuItem' href='/'>Home</a>
