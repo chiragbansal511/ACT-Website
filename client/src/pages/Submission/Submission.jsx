@@ -61,62 +61,13 @@ const Body = () => {
         {" "}The proposals must be uploaded using submission link (add submission
         link here) on ACT website
       </p>
-      
+
       <br />
+    
+      <button className="button homeButton aboutButton">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeq_RQ5pVOLZ0vaclfxjRsqknC8nScoI-5hH4mpeen0oheGNQ/viewform?usp=sf_link" target="blank">Submission Form</a>
+      </button>
 
-      <p>
-        A proposal will be accepted if it is graded with more than 40 points and
-        it does not score 0 in any of the criteria. The proposals must be
-        uploaded to www.act.thapar.edu
-      </p>
-
-      <h1>Submission Form</h1>
-      <form action="" className="submissionForm">
-        <div className="row">
-          <div className="col">
-            <input type="text" name="" id="" placeholder="Full Name" />
-          </div>
-
-          <div className="col">
-            <input type="text" name="" id="" placeholder="Email" />
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col">
-            <input type="text" name="" id="" placeholder="Project Title" />
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col">
-            <input type="text" name="" id="" placeholder="Keywords" />
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Abstract"></textarea>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col" style={{ position: "relative" }}>
-            <label htmlFor="">
-            </label>
-            <input type="file" placeholder="File Submission" className="fileinput" />
-          </div>
-
-          <div className="col">
-            <input type="file" placeholder="Supplementary Material" />
-          </div>
-
-          <div className="col">
-            <button className="button">Submit</button>
-          </div>
-        </div>
-
-      </form>
     </div>
   );
 };
